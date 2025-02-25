@@ -1,5 +1,7 @@
 # React + Vite
 
+[![Netology React](https://github.com/coolpak/ra_events-state/actions/workflows/web.yml/badge.svg?branch=main)](https://github.com/coolpak/ra_events-state/actions/workflows/web.yml)
+
 [![Build status](https://ci.appveyor.com/api/projects/status/t73lmtokshkikk2u?svg=true)](https://ci.appveyor.com/project/CoolPaK/ra-events-state)
 
 

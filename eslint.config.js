@@ -11,9 +11,10 @@ export default [
     languageOptions: {
       ecmaVersion: 2020,
       globals: {
-        ...globals.browser,
-        AudioWorkletGlobalScope: "readonly",
-      },
+       ...globals.browser,
+       "AudioWorkletGlobalScope ": "off",
+     },
+   },
       parserOptions: {
         ecmaVersion: "latest",
         ecmaFeatures: { jsx: true },

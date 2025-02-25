@@ -5,7 +5,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/t73lmtokshkikk2u?svg=true)](https://ci.appveyor.com/project/CoolPaK/ra-events-state)
 
 
-[Github Pages]()
+[Github Pages](https://coolpak.github.io/ra_events-state/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

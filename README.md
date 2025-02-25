@@ -1,5 +1,6 @@
 # React + Vite
 
+[![Build status](https://ci.appveyor.com/api/projects/status/t73lmtokshkikk2u?svg=true)](https://ci.appveyor.com/project/CoolPaK/ra-events-state)
 
 
 [Github Pages]()

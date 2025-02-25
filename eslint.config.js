@@ -7,19 +7,18 @@ import reactRefresh from "eslint-plugin-react-refresh";
 export default [
   { ignores: ["dist"] },
   {
-    files: ["**/*.{js,jsx}"],
+    files: ["/*.{js,jsx}"],
     languageOptions: {
       ecmaVersion: 2020,
       globals: {
-       ...globals.browser,
-       "AudioWorkletGlobalScope ": "off",
-     },
-   },
-      parserOptions: {
-        ecmaVersion: "latest",
-        ecmaFeatures: { jsx: true },
-        sourceType: "module",
+        ...globals.browser,
+        AudioWorkletGlobalScope: "off",
       },
+    },
+    parserOptions: {
+      ecmaVersion: "latest",
+      ecmaFeatures: { jsx: true },
+      sourceType: "module",
     },
     settings: { react: { version: "18.3" } },
     plugins: {
